@@ -2,5 +2,14 @@
 The code for JPM_Virtual_Intership
 
 
-#Task 1
-**Build a model to predict a year later price of Commodity for any inputed date**
+# Task 1
+**Build a model to predict a year later price of Commodity (Natural Gas) for any inputed date**
+
+# Task 2 
+**Implement Task1 model to calculate the commodity contract value based on the inputed dates (Injection dates, Withdrawal dates)**
+
+# Task 3
+**Build a classification model to calculate the probability of defaulting on loan for any companies**
+
+# Task 4
+**Build a classification model to label fisco class for any companies**
