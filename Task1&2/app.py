@@ -41,7 +41,7 @@ def load_data():
     file_path = 'Nat_Gas.csv'
     current_dir = os.getcwd()
     full_path = os.path.join(current_dir, file_path)
-    df = pd.read_csv(file_path, parse_dates=['Dates'])
+    df = pd.read_csv(full_path, parse_dates=['Dates'])
     return df
 
 df = load_data()
@@ -166,4 +166,5 @@ if st.button("All possible contracts"):
             st.error("Illegal contract dates or no profitable contracts found.")
 
             
+
 
