@@ -39,7 +39,7 @@ def price_contract(in_dates, in_prices, out_dates, out_prices, rate, storage_cos
 @st.cache_data
 def load_data():
     file_path = 'Nat_Gas.csv'
-    current_dir = os.get.cwd()
+    current_dir = os.getcwd()
     full_path = os.path.join(current_dir, file_path)
     df = pd.read_csv(file_path, parse_dates=['Dates'])
     return df
@@ -166,3 +166,4 @@ if st.button("All possible contracts"):
             st.error("Illegal contract dates or no profitable contracts found.")
 
             
+
