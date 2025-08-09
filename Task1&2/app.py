@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error
 from datetime import date
 import math
 import itertools
+import os
 
 
 def price_contract(in_dates, in_prices, out_dates, out_prices, rate, storage_cost_rate, total_vol, injection_withdrawal_cost_rate):
@@ -37,7 +38,10 @@ def price_contract(in_dates, in_prices, out_dates, out_prices, rate, storage_cos
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('Nat_Gas.csv', parse_dates=['Dates'])
+    file_path = 'Nat_Gas.csv'
+    current_dir = os.get.cwd()
+    full_path = os.path.join(current_dir, file_path)
+    df = pd.read_csv(file_path, parse_dates=['Dates'])
     return df
 
 df = load_data()
@@ -160,4 +164,5 @@ if st.button("All possible contracts"):
             st.pyplot(fig)
         else:
             st.error("Illegal contract dates or no profitable contracts found.")
+
             
