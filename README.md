@@ -7,6 +7,7 @@ The code for JPM_Virtual_Intership
 
 # Task 2 
 **Implement Task1 model to calculate the commodity contract value based on the inputed dates (Injection dates, Withdrawal dates)**
+(Click for a try!)(https://jpmvirtualinternship-hdgva3m9fzdj7dl22s39ej.streamlit.app)
 
 # Task 3
 **Build a classification model to calculate the probability of defaulting on loan for any companies**
