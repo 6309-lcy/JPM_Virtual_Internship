@@ -13,5 +13,11 @@ The code for JPM_Virtual_Intership
 # Task 3
 **Build a classification model to calculate the probability of defaulting on loan for any companies**
 
+If interested, please read the code from dir Task3&4
+
 # Task 4
 **Build a classification model to label fisco class for any companies**
+
+If interested, please read the code from dir Task3&4.
+
+Task4 code is wrote under the task instrustion.
